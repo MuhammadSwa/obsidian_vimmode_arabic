@@ -32,6 +32,7 @@ map ء x
 map ْ  X
 map ي d
 map ] D 
+imap <C-ص> <C-w>
 " search
 map ظ / 
 map ى n
