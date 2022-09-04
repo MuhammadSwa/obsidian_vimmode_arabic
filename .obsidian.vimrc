@@ -1,7 +1,9 @@
-" movements
+map j gj
+map k gk
+" movements j k h l
 " " notice l h are reversed for Right to left(RTL) display
-map ت j
-map ن k
+map ت gj
+map ن gk
 map ا l 
 map م h
 map ل g
@@ -16,7 +18,7 @@ map أ L
 map ﻷ G 
 "go to insert mode
 map ه i
-map ÷ i
+map ÷ I
 map ش a 
 map ِ  A
 map خ o
@@ -60,8 +62,10 @@ map <C-ر> <C-v>
 
 " indent
 " notice < > are reversed for Right to left(RTL) display
-map و >
-map ز <
+map , >
+map . <
+
+
 " marks 
 map ة m
 map ذ `
@@ -69,3 +73,5 @@ map ذ `
 " escape key is mapped to Capslock
 " textobjects didn't work for me when using arabic layout : diw -> works just fine, ي ه ص doesn't
 " see full list of vim keybindings here: https://hea-www.harvard.edu/~fine/Tech/vi.html
+
+
